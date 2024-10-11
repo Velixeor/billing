@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: core
+  datasource:
+    url: jdbc:postgresql://localhost:5432/payment
+    username: postgres
+    password: 135790
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database: postgresql
+  liquibase:
+    change-log: classpath:db/changelog/master.yaml
+    user: postgres
+    password: 135790
+    liquibase-schema: core
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port : 8082
