@@ -23,3 +23,15 @@ spring:
     password: guest
 server:
   port : 8082
+security:
+  jwt:
+    public-key: |
+      -----BEGIN PUBLIC KEY-----
+      MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlq0+htPhjCxEcbLzKjDq
+      VWCSDuFIPl5PYWFM0gmLg74jxCLXsItsZvvgpQKc+APorna3WtMO9RoN5+7W9K3+
+      qJpxlzP0vOzx7xoNTx+OSmfUwJjuA1zdfA/Y5+OXLtvyNzz2V8WOmxLhek6LtwjR
+      eOCuCuHBSs8ex0LDFuUmkIlyfc1hebeei3EUIKODs8sZoeTFVJxiX6+pyjanBlL1
+      Rb6gXQUQ3iPzP1ymhW7aCbYzrJsOnnwEx5T9shSgq8FYsetk46UCu8Iv6RtZld2R
+      hq082Yik5+2wowXT6vpNQJ3Yj8MQPiT7s+XYd4gmBFPwiVapLEnuzYReTkQuF8RZ
+      0QIDAQAB
+      -----END PUBLIC KEY-----
